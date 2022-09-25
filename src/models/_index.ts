@@ -1,1 +1,1 @@
-export * from './healthcheck.model';
+export * from './post.model';

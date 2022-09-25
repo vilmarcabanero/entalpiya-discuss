@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import { indexRouter } from './index.route';
+import { postsRouter } from './posts.route';
 // import docsRoute from './swagger.route';
 
 const router = express.Router();
@@ -13,6 +14,10 @@ const defaultIRoute: IRoute[] = [
   {
     path: '/',
     route: indexRouter,
+  },
+  {
+    path: '/posts',
+    route: postsRouter,
   },
 ];
 

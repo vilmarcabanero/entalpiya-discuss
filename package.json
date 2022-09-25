@@ -4,16 +4,17 @@
   "description": "Ask and post a question.",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
+    "start": "ts-node-dev --poll src/index.ts",
     "s": "ts-node-dev src/index.ts",
-    "test": "jest --watchAll --no-cache",
+    "test": "jest --silent --no-cache",
+    "test:coverage": "jest --coverage --silent --no-cache",
     "prettify": "prettier --write"
   },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
     "setupFilesAfterEnv": [
-      "./src/test/setup.ts"
+      "./test/setup.ts"
     ]
   },
   "keywords": [],
@@ -21,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@entropiya/common": "^0.0.10",
-    "@entropiya/i-discuss": "0.0.4",
+    "@entropiya/i-discuss": "0.0.7",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "express-async-errors": "^3.1.1",

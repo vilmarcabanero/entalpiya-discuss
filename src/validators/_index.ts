@@ -1,1 +1,1 @@
-export * from './default.validateDefault';
+export * from './posts.validateCreatePost';
