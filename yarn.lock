@@ -326,10 +326,10 @@
     morgan "^1.10.0"
     winston "^3.8.2"
 
-"@entropiya/i-discuss@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@entropiya/i-discuss/-/i-discuss-0.0.7.tgz#11b5f9c9e11ca5db5b61503aa78d19f1c283067c"
-  integrity sha512-+mWvRM3TjhE9IFtm7LgMjZjf2mSqXZ4uYPSP35lFdYt3QBw/veRbJGQNOS8LfnZbkZhQULFO87VO23DrURiMGg==
+"@entropiya/discuss-interfaces@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@entropiya/discuss-interfaces/-/discuss-interfaces-0.1.0.tgz#36f77d1d8cbfd772e64d1da4b249a6f16d9b5d06"
+  integrity sha512-VdGyA0gkBXeI3TECovvN696pri/zserGdq6SSap7K3nzkfe9CLyWx5KtupYQu6vNjFt3FmxO73M+WJ2oDkrC7A==
 
 "@entropiya/interfaces@0.0.5":
   version "0.0.5"
