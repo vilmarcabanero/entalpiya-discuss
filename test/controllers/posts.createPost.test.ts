@@ -114,17 +114,17 @@ describe('createPost - POST /posts/create', () => {
     expect(response.body.message).toBe('updatedAt is required.');
   });
 
-  it(`Responds 400 with message "__v is required." if __v is missing.`, async () => {
+  it(`Responds 400 with message "version is required." if version is missing.`, async () => {
     const response = await request(app)
       .post(baseUrl + '/posts/create')
       .set('Authorization', `Bearer ${await token()}`)
       .send({
         ...postCreated,
-        __v: null,
+        version: null,
       })
       .expect(400);
 
-    expect(response.body.message).toBe('__v is required.');
+    expect(response.body.message).toBe('version is required.');
   });
 
   it(`Responds 400 with message "likers is required." if likers is missing.`, async () => {

@@ -24,7 +24,7 @@ export async function validateCreatePost(
     .notEmpty()
     .withMessage('updatedAt is required.')
     .run(req);
-  await body('__v').notEmpty().withMessage('__v is required.').run(req);
+  await body('version').notEmpty().withMessage('version is required.').run(req);
   await body('likers')
     .isArray()
     .withMessage('likers is required.')

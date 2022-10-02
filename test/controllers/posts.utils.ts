@@ -12,7 +12,7 @@ export const postCreated = {
   hidden: false,
   createdAt: '2022-09-23T16:37:18.479Z',
   updatedAt: '2022-09-23T16:37:18.479Z',
-  __v: 0,
+  version: 0,
 };
 
 export async function token() {

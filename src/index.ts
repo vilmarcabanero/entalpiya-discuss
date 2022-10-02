@@ -25,7 +25,7 @@ const start = async () => {
     DBLog.logger.error(err);
   }
 
-  const PORT = 3000;
+  const PORT = 4001;
   server = app.listen(PORT, () => {
     APPLog.logger.info(`Listening on port ${PORT}.`);
   });

@@ -36,13 +36,13 @@ const postSchema = new mongoose.Schema(
       type: Date,
       required: true,
     },
-    __v: {
+    version: {
       type: Number,
       required: true,
     },
   },
   {
-    timestamps: true,
+    versionKey: false
   },
 );
 
