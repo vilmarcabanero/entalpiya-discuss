@@ -7,7 +7,6 @@ export const postCreated = {
   _id: '3b1df2e0feb64e19ad003e1aa7ddbf12',
   userId: '63261578152a836ab456e929',
   message: '1st post - Vil',
-  userName: 'Vilmar Cabañero',
   likers: new Array(),
   hidden: false,
   createdAt: '2022-09-23T16:37:18.479Z',

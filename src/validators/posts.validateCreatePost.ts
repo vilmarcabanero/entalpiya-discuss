@@ -11,10 +11,6 @@ export async function validateCreatePost(
   await body('_id').notEmpty().withMessage('_id is required.').run(req);
   await body('userId').notEmpty().withMessage('userId is required.').run(req);
   await body('message').notEmpty().withMessage('message is required.').run(req);
-  await body('userName')
-    .notEmpty()
-    .withMessage('userName is required.')
-    .run(req);
   await body('hidden').notEmpty().withMessage('hidden is required.').run(req);
   await body('createdAt')
     .notEmpty()

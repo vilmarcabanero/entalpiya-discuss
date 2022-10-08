@@ -14,10 +14,6 @@ const postSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    userName: {
-      type: String,
-      required: true,
-    },
     likers: {
       type: [String],
       required: true,

@@ -62,19 +62,6 @@ describe('createPost - POST /posts/create', () => {
     expect(response.body.message).toBe('userId is required.');
   });
 
-  it(`Responds 400 with message "userName is required." if userName is missing.`, async () => {
-    const response = await request(app)
-      .post(baseUrl + '/posts/create')
-      .set('Authorization', `Bearer ${await token()}`)
-      .send({
-        ...postCreated,
-        userName: null,
-      })
-      .expect(400);
-
-    expect(response.body.message).toBe('userName is required.');
-  });
-
   it(`Responds 400 with message "hidden is required." if hidden is missing.`, async () => {
     const response = await request(app)
       .post(baseUrl + '/posts/create')
