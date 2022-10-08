@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import * as I from '@entropiya/discuss-interfaces';
+import * as I from '../interfaces';
 import { Post } from '../models/post.model';
 
 /**

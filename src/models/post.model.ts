@@ -1,4 +1,4 @@
-import * as I from '@entropiya/discuss-interfaces';
+import * as I from '../interfaces';
 import mongoose from 'mongoose';
 const postSchema = new mongoose.Schema(
   {
