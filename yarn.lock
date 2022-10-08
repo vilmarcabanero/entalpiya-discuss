@@ -325,6 +325,25 @@
     morgan "^1.10.0"
     winston "^3.8.2"
 
+"@entropiya/common@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@entropiya/common/-/common-0.0.10.tgz#f3dee9d6f58c82438e838f7f109242b26ac2322f"
+  integrity sha512-Pfi1tiJ+8FjP94BbjNelScxc00VbMqn5hFTOZHFH+2MbpVGRXIcVoyUSxlQGyZekU9EwPURAy34EPG/rWOicyg==
+  dependencies:
+    chalk "^4.0.0"
+    express "^4.18.1"
+    http-status "^1.5.3"
+    jsonwebtoken "^8.5.1"
+    moment "^2.29.4"
+    mongoose "^6.6.1"
+    morgan "^1.10.0"
+    winston "^3.8.2"
+
+"@entropiya/interfaces@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@entropiya/interfaces/-/interfaces-0.0.5.tgz#b14a3955f6b83d9f3667cfc0b40002fa3e8c080c"
+  integrity sha512-20O7j03llfW/2YqZU93wUlFeDMm2Tyus1yp3IqnMrKDXLr7FbFDGGiEQQecezTpnZx8MEGWjFM38pwx7IvHVXw==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
