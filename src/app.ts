@@ -4,7 +4,7 @@ import express from 'express';
 import 'express-async-errors'
 import { json } from 'body-parser';
 import routes from './routes/_index';
-import * as S from '@entropiya/common';
+import * as S from '@entalpiya/common';
 
 const app = express();
 

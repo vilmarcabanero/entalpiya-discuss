@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import { body } from 'express-validator';
-import * as S from '@entropiya/common';
+import * as S from '@entalpiya/common';
 import { result } from './validator.utils';
 
 export async function validateCreatePost(

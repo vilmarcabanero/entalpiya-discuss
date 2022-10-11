@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { app } from './app';
-import * as S from '@entropiya/common';
+import * as S from '@entalpiya/common';
 
 let server: any;
 

@@ -1,4 +1,4 @@
-import * as C from '@entropiya/common';
+import * as C from '@entalpiya/common';
 import express from 'express';
 import * as V from '../validators/posts.validateCreatePost';
 import { createPost, getAllPosts } from '../controllers/_index';
