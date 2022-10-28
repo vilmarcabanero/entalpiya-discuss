@@ -1,1 +1,1 @@
-export * from './posts.validateCreatePost';
+export * from './posts.validateCreatePost'

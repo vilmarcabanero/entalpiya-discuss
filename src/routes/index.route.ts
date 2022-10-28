@@ -1,8 +1,8 @@
-import express from 'express';
-import { healthcheck } from '../controllers/_index';
+import express from 'express'
+import { healthcheck } from '../controllers/_index'
 
-const router = express.Router();
+const router = express.Router()
 
-router.get('/', healthcheck);
+router.get('/', healthcheck)
 
-export { router as indexRouter };
+export { router as indexRouter }

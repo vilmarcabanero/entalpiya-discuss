@@ -1,5 +1,5 @@
-import * as I from '../interfaces';
-import mongoose from 'mongoose';
+import * as I from '../interfaces'
+import mongoose from 'mongoose'
 const postSchema = new mongoose.Schema(
   {
     _id: {
@@ -38,28 +38,28 @@ const postSchema = new mongoose.Schema(
     },
   },
   {
-    versionKey: false
+    versionKey: false,
   },
-);
+)
 
 postSchema.statics.build = (attrs: I.Post) => {
-  return new Post(attrs);
-};
+  return new Post(attrs)
+}
 
-const Post = mongoose.model<PostDoc, PostModel>('Post', postSchema);
+const Post = mongoose.model<PostDoc, PostModel>('Post', postSchema)
 
-export { Post };
+export { Post }
 
 /**
  * An interface that describes the properties that a Post Model has.
  */
 interface PostModel extends mongoose.Model<PostDoc> {
-  build(attrs: I.Post): PostDoc;
+  build(attrs: I.Post): PostDoc
 }
 
 /**
  * An interface that describes the properties that a Post Document has.
  */
 interface PostDoc extends I.Post, mongoose.Document {
-  _id: string;
+  _id: string
 }

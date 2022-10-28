@@ -1,6 +1,6 @@
-import { Request, Response } from 'express';
-import * as I from '../interfaces';
-import { Post } from '../models/post.model';
+import { Request, Response } from 'express'
+import * as I from '../interfaces'
+import { Post } from '../models/post.model'
 
 /**
  * Create a post.
@@ -11,9 +11,9 @@ export async function createPost(
   req: Request,
   res: Response,
 ): Promise<Response<I.Post>> {
-  const payload: I.Post = req.body;
+  const payload: I.Post = req.body
 
-  const createdPost = await Post.build(payload).save();
+  const createdPost = await Post.build(payload).save()
 
-  return res.status(201).send(createdPost);
+  return res.status(201).send(createdPost)
 }

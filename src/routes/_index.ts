@@ -1,13 +1,13 @@
-import express, { Router } from 'express';
-import { indexRouter } from './index.route';
-import { postsRouter } from './posts.route';
+import express, { Router } from 'express'
+import { indexRouter } from './index.route'
+import { postsRouter } from './posts.route'
 // import docsRoute from './swagger.route';
 
-const router = express.Router();
+const router = express.Router()
 
 interface IRoute {
-  path: string;
-  route: Router;
+  path: string
+  route: Router
 }
 
 const defaultIRoute: IRoute[] = [
@@ -19,7 +19,7 @@ const defaultIRoute: IRoute[] = [
     path: '/posts',
     route: postsRouter,
   },
-];
+]
 
 // const devIRoute: IRoute[] = [
 //   // IRoute available only in development mode
@@ -30,8 +30,8 @@ const defaultIRoute: IRoute[] = [
 // ];
 
 defaultIRoute.forEach((route) => {
-  router.use(route.path, route.route);
-});
+  router.use(route.path, route.route)
+})
 
 /* istanbul ignore next */
 // if (process.env.ENVIRONMENT === 'development') {
@@ -40,4 +40,4 @@ defaultIRoute.forEach((route) => {
 //   });
 // }
 
-export default router;
+export default router
