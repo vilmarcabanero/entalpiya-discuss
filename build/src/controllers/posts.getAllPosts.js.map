@@ -1,0 +1,1 @@
+{"version":3,"file":"posts.getAllPosts.js","sourceRoot":"","sources":["../../../src/controllers/posts.getAllPosts.ts"],"names":[],"mappings":";;;AAEA,qDAA2C;AAOpC,KAAK,UAAU,WAAW,CAC/B,GAAY,EACZ,GAAa;IAEb,MAAM,QAAQ,GAAG,MAAM,iBAAI,CAAC,IAAI,EAAE,CAAA;IAElC,OAAO,GAAG,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAA;AAC3B,CAAC;AAPD,kCAOC"}
