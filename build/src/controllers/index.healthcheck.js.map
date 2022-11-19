@@ -1,1 +1,1 @@
-{"version":3,"file":"index.healthcheck.js","sourceRoot":"","sources":["../../../src/controllers/index.healthcheck.ts"],"names":[],"mappings":";;;AAOO,KAAK,UAAU,WAAW,CAC/B,GAAY,EACZ,GAAa;IAEb,OAAO,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,6BAA6B,CAAC,CAAA;AAC5D,CAAC;AALD,kCAKC"}
+{"version":3,"file":"index.healthcheck.js","sourceRoot":"","sources":["../../../src/controllers/index.healthcheck.ts"],"names":[],"mappings":";;;AAOO,KAAK,UAAU,WAAW,CAC/B,GAAY,EACZ,GAAa;IAEb,OAAO,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,wCAAwC,CAAC,CAAA;AACvE,CAAC;AALD,kCAKC"}

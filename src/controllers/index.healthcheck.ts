@@ -9,5 +9,5 @@ export async function healthcheck(
   req: Request,
   res: Response,
 ): Promise<Response<string>> {
-  return res.status(200).send('Discuss Microservice is ok.')
+  return res.status(200).send('Hi Vercel. Discuss Microservice is ok.')
 }
